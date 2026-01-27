@@ -1,0 +1,7 @@
+2025-12-21 21:07:41.276  INFO 67378 --- [main] c.v.spring.database.pool.ConnectionPool  : Init connection pool
+2025-12-21 21:07:41.289  INFO 67378 --- [main] c.v.spring.database.pool.ConnectionPool  : Init connection pool
+2025-12-21 21:07:41.291  INFO 67378 --- [main] c.v.spring.database.pool.ConnectionPool  : Init connection pool
+2025-12-21 21:07:41.295  WARN 67378 --- [main] c.v.s.d.repository.CompanyRepository     : init company repository
+2025-12-21 21:07:41.373  INFO 67378 --- [SpringApplicationShutdownHook] c.v.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-12-21 21:07:41.373  INFO 67378 --- [SpringApplicationShutdownHook] c.v.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-12-21 21:07:41.374  INFO 67378 --- [SpringApplicationShutdownHook] c.v.spring.database.pool.ConnectionPool  : Clean connection pool
