@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Arrays;
 import java.util.List;
+
+import static java.util.Arrays.*;
 
 @Controller
 @RequestMapping("/api/v1")
@@ -18,7 +19,7 @@ public class GreetingController {
 
     @ModelAttribute("roles")
     public List<Role> roles() {
-        return Arrays.asList(Role.values());
+        return asList(Role.values());
     }
 
 //    @RequestMapping(value = "/hello", method = RequestMethod.GET) -> менее актуально
