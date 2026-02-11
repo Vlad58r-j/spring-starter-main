@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.test.web.servlet.MockMvc;
 
-import static com.vlad.spring.dto.UserCreateEditDto.*;
 import static com.vlad.spring.dto.UserCreateEditDto.Fields.*;
 import static org.hamcrest.collection.IsCollectionWithSize.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
