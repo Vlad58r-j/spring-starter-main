@@ -25,7 +25,7 @@ public class GreetingController {
 //    @RequestMapping(value = "/hello", method = RequestMethod.GET) -> менее актуально
     @GetMapping(value = "/hello")
     public String hello(Model model, HttpServletRequest request, UserReadDto userReadDto) {
-        model.addAttribute("user", new UserReadDto(1L, "Ivan"));
+//        model.addAttribute("user", new UserReadDto(1L, "Ivan"));
 
         return "greeting/hello";
     }
